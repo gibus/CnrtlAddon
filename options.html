@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Options</title>
+    <style>
+        .response {
+            min-height: 1.5rem;
+            color: #555;
+            transition-duration: .2s;
+        }
+        .row {
+            border-top: 1px solid #c1c1c1;
+            -moz-box-align: center;
+            min-height: 35px;
+            line-height: 35px;
+            text-shadow: 0 1px 1px #fefffe;
+        }
+        .row .title {
+            width: 264px;
+            display: inline-block;
+            cursor: default;
+            margin-top: 1px;
+            margin-bottom: 2px;
+            margin-inline-end: 5px;
+            font: message-box;
+            font-size: 1rem;
+            color: #333;
+        }
+    </style>
+  </head>
+
+<body>
+  <div class="response"></div>
+    <div class="row">
+      <label class="title" for="cnrtldicovector">Choose dictionnary</label>
+      <select id="cnrtldicovector">
+        <option value="lex">Lexicography (definition)</option>
+        <option value="syn">Synonymy</option>
+        <option value="ant">Antonymy</option>
+        <option value="ety">Etymology</option>
+        <option value="mor">Morphology</option>
+        <option value="pro">Proxemics</option>
+        <option value="con">Consistency</option>
+      </select>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>
