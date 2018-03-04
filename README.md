@@ -1,7 +1,7 @@
 # CnrtlAddOn
 
-Get definition, synonyms, etymology of selected words with [CNRTL website](http://www.cnrtl.fr/)
+This add-on allows to search in [CNRTL](http://www.cnrtl.fr/) (Centre national de ressources textuelles et lexicales) dictionnaries, while reading any page.
 
-## Configuration
+Choose your preferred dictionary on this add-on's setting page among Lexicography (definition), Synonymy, Antonymy, Etymology, Morphology, Proxemics and Consistency. Note that all of these are __French dictionnaries__.
 
-Choose dictionnary (definition, English-French, etc.) on this add-on's [setting page](about:addons).
+When reading any web page, select (double click) the word you wanna search for, and open Firefox context menu (right click), then just choose _CNRTL_ option and the entry in the chosen dictionary for the selected word will be opened in a new tab.
