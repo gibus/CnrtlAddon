@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Cnrtl",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Get definition, synonyms, etymology of selected words with CNRTL website",
   "icons": {
     "48": "icons/icon.png"
@@ -18,5 +18,10 @@
     "contextMenus",
     "storage",
     "tabs"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{47a596ef-1900-4ddc-aff5-09a718f4d666}"
+    }
+  }
 }
